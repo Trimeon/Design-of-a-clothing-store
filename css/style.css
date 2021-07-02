@@ -308,7 +308,7 @@
 
 
 li {
-    list-style-type: none; /* Убираем маркеры у списка */
+    list-style-type: none;
    }
 
 li:before {
