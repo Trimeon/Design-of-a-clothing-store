@@ -201,7 +201,13 @@
 }
 
 .new_items_img {
+    width: 360px;
+    height: 420px;
+}
 
+.new_items_img:hover {
+    background: rgba(58, 56, 56, 0.86);
+    opacity: 0.2;
 }
 
 .new_items_block_head_text {
@@ -263,6 +269,7 @@
     font-family: Lato;
     font-size: 19.96px;
     line-height: 24px;
+    text-align: center;
     color: #FBFBFB;
     margin: 28.07px 0 16px 0;
     align-items: center;
@@ -278,11 +285,95 @@
     align-items: center;
 }
 
-.subscribe {
-    height: 448px;
-    background: rgba(244, 244, 244, 0.7);
+.prefooter {
+    display: flex;
+    justify-content: center;
 }
 
+.photofooter {
+    background-image: url(../img/subscribe.png);
+    width: 1598px;
+    height: 448px;
+    display: flex;
+}
+
+.feedback {
+    width: 800px;
+    left: 230.29px;
+    top: 97px; 
+    justify-content: center;
+    display: flex;
+    margin: 97px 0 0 0;
+    flex-wrap: wrap;
+}
+
+.avatar {
+    content: url(../img/avatar.png);
+    width: 96px;
+    height: 96px;
+    margin: 0 500px;
+}
+
+.quote {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center; 
+    color: #222224;
+    width: 360px;
+    height: 99px;
+}
+
+.subscribe {
+    width: 800px;
+    margin: 150px 0 0 0;
+}
+
+.subscribe_text {
+    justify-content: center;
+    display: flex;
+    margin: 0 0 32px 0;
+}
+
+.subscribe-email {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe_form {
+    width: 256px;
+    height: 49px;
+    border-radius: 50px 0 0 50px;
+    background-color: #E1E1E1;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: transparent;
+    color: #222224;
+}
+
+.subscribe_form_btn {
+    width: 100px;
+    height: 49px;
+    border-radius: 0 50px 50px 0;
+    background: #F16D7F;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    border: transparent;
+    color: #FFFFFF;
+}
 .footer {
     height: 79px;
     background: #222224;
@@ -299,18 +390,53 @@
 }
 
 .footer_links {
-
+    vertical-align: middle;
 }
 
 .footer_links_social {
-
+    display: flex;
 }
 
-
-li {
+.sociall {
     list-style-type: none;
+    margin: 24px 7px 23px 0;
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
    }
 
-li:before {
+.sociall:hover {
+    background: #F16D7F;
+   }
+
+.facebook {
     content: url("../img/facebook.svg");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+   }
+
+   .instagram {
+    content: url("../img/insta.svg");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9px;
+   }
+
+   .pintrest {
+    content: url("../img/pintrest.svg");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+   }
+
+   .twitter {
+    content: url("../img/twit.svg");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9px;
    }
