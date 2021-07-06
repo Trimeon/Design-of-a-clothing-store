@@ -4,8 +4,6 @@ Clothing store template
 
 ToDo:
 
-•	Footer
-
 •	Code optimization
 
 
