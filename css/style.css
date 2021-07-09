@@ -126,19 +126,24 @@
 .header_left {
     width: 800px;
     height: 764px;
+    content: url(../img/fashion_header.png);
+    position: relative;
+    right: 150px;
 }
 
 .header_right {
     width: 800px;
     height: 764px;
     display: flex;
+    position: relative;
+    right: 250px;
 }
 
 .header_right_elements {
     display: flex;
     width: 405px;
     height: 93.1px;
-    margin: 289.9px 331px 381px 63.42px;
+    margin: 289.9px 0 381px 63.42px;
 }
 
 .rectangle {
@@ -412,11 +417,14 @@
 .prefooter {
     display: flex;
     justify-content: center;
+    background: url(../img/subscribe.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.photofooter {
-    background-image: url(../img/subscribe.png);
-    width: 1598px;
+.footerposition {
+    background-color: rgba(244, 244, 244, 0.7);
+    width: 1600px;
     height: 448px;
     display: flex;
 }
@@ -450,8 +458,7 @@
     height: 99px;
 }
 
-.subscribe {
-    width: 800px;
+.subscribe {    
     margin: 150px 0 0 0;
 }
 
