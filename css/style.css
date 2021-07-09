@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -107,20 +108,20 @@
 .profile {
     width: 28px;
     height: 29px;
-    padding: 26px 33px 20px 0;
+    padding: 20px 20px 20px 20px;
     content: url(../img/profile.svg);
 }
 
 .cart {
     width: 32px;
     height: 29px;
-    padding: 26px 239px 20px 0;
+    padding: 20px 239px 20px 0;
     content: url(../img/cart.svg);
 }
 
 .header {
     background: #F1E4E6;
-    height: 764px;
+    height: auto;
 }
 
 .header_left {
@@ -166,6 +167,30 @@
 
 .header_text_color {
     color: #F16D7F;
+}
+
+.header_text_any_page {
+    margin: 59px 0;
+    display: flex;
+}
+
+.new_arrivals_header {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.way_header {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+    margin-left: 731px;
 }
 
 .category {
@@ -369,7 +394,7 @@
     color: #F26376;
     background-color: transparent;
     padding: 14.5px 38.5px 13.5px 38.5px;
-    margin: 48.5px 0 0 0;
+    margin: 48.5px 0 95px 0;
 }
 
 .browse:hover {
@@ -377,10 +402,72 @@
     background-color: #F26376;
 }
 
+.sorting {
+    display: flex;
+    margin: 62px 0;
+}
+
+.filter {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+}
+
+.any_sort {
+    margin-left: 304px;
+    display: flex;
+}
+
+.trending_now {
+    margin-right: 48px;
+    display: flex;
+}
+
+.size {
+    display: flex;
+    margin-right: 48px;
+}
+
+.size:hover .choose_size {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkbox_svg {
+    content: url(../img/choose.svg);
+}
+
+.choose_size {
+    width: 79px;
+    height: 103px;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    background: #FFFFFF;
+    position: absolute;
+    justify-content: left;
+    top: 310px;
+    display: none;
+
+}
+
+.checkbox_size {
+    margin: 7px 9px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #6F6E6E;
+}
+
+.price {
+    display: flex;
+}
+
 .why_me {
     height: 341px;
     background: #222224;
-    margin-top: 95.5px;
 }
 
 .block_why_me {
@@ -490,6 +577,7 @@
     align-items: center;
     border: transparent;
     color: #222224;
+    outline: none;
 }
 
 .subscribe_form_btn {
